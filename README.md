@@ -1,6 +1,6 @@
 # Create-and-design-personal-website
 
-Welcome to my personal portfolio! This project is designed to showcase my technical skills, academic background in computer engineering, and my journey through various engineering projects.
+This project is designed to showcase my technical skills, academic background in computer engineering, and my journey through various engineering projects.
 
 The website provides a professional and user-friendly interface that highlights my capabilities in Embedded Systems, Robotics, and Internet of Things (IoT).
 
