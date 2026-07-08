@@ -32,4 +32,8 @@ I structured the website logically to create an intuitive user experience:
 *   Created an account on InfinityFree.
 *   Uploaded the project files via the File Manager in the hosting control panel to make the website publicly accessible.
 
+## Project Demo
+
+[![Watch the demo](./Screen%20Recording%202026-07-08%20234601.mp4)](./Screen%20Recording%202026-07-08%20234601.mp4)
+
 
