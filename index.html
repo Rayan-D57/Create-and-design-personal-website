@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rayan Alshalawi | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f7f9fc;
+            color: #333;
+        }
+
+        header {
+            background: #0d47a1;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #0d47a1;
+            border-left: 5px solid #0d47a1;
+            padding-left: 10px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+        }
+
+        /* Images show fully without cropping */
+        .project-img {
+            width: 100%;
+            height: auto;      /* natural height */
+            display: block;    /* removes extra spacing */
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #eee;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Rayan Alshalawi</h1>
+    <p>Computer Engineering Student</p>
+</header>
+
+<div class="container">
+
+    <div class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Engineering student passionate about embedded systems, robotics, IoT, and building practical engineering solutions.
+            I enjoy creating projects that combine hardware, software, and real-world problem solving.
+        </p>
+    </div>
+
+    <div class="section" id="skills">
+        <h2>Skills</h2>
+        <p>
+            • Embedded Systems<br>
+            • C++ / Python<br>
+            • Microcontrollers (Arduino, ESP32)<br>
+            • Sensors & Actuators<br>
+            • IoT & Cloud Integration<br>
+            • Robotics & Automation<br>
+            • PCB Design Basics
+        </p>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Posture Correction Device</h3>
+            <p>Designed a wearable device that detects back slouching and provides an immediate alert to the user.</p>
+            <img src="posture.jpg" alt="Posture Correction Device" class="project-img">
+        </div>
+
+        <div class="project-card">
+            <h3>Air Quality Monitoring System</h3>
+            <p>Developed a system that detects air pollution levels and sends real-time data to the cloud.</p>
+            <img src="air-quality.jpg" alt="Air Quality Monitoring System" class="project-img">
+        </div>
+
+        <div class="project-card">
+            <h3>Legged Robot</h3>
+            <p>Programmed a multi-legged robot capable of obstacle avoidance and wireless remote control.</p>
+            <img src="robot.jpg" alt="Legged Robot" class="project-img">
+        </div>
+
+        <div class="project-card">
+            <h3>Smart Window</h3>
+            <p>Created a prototype window that automatically closes when rainfall is detected.</p>
+            <img src="rain-window.jpg" alt="Smart Window" class="project-img">
+        </div>
+
+        <div class="project-card">
+            <h3>Water Tank Monitor</h3>
+            <p>Built a system that displays water tank levels using LEDs and a digital display.</p>
+            <img src="water-tank.jpg" alt="Water Tank Monitor" class="project-img">
+        </div>
+
+        <div class="project-card">
+            <h3>ATM System</h3>
+            <p>Developed a functional ATM simulation that manages accounts and financial transactions.</p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Rayan Alshalawi</p>
+</footer>
+
+</body>
+</html>
