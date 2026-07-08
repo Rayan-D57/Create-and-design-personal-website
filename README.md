@@ -33,9 +33,3 @@ I structured the website logically to create an intuitive user experience:
 *   Uploaded the project files via the File Manager in the hosting control panel to make the website publicly accessible.
 
 
-##  Live Demo
-You can view my live portfolio here:
-[Rayan Alshalawi | Portfolio](YOUR_LINK_HERE)
----
-
-my projects and reach out if you'd like to collaborate or discuss engineering topics!
